@@ -9,3 +9,4 @@ tvjanam,Malayalam
 ZeeMalayalamNews,Malayalam
 aljazeeraenglish,English
 SaudiQuranTv,Arabic
+SkyNews,English
