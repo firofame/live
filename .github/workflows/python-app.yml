@@ -31,8 +31,8 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-        git add playlist.m3u8  # Add the playlist.m3u8 file to the staging area
-        git commit -m "Update playlist.m3u8"  # Commit the changes with a message
+        git add .
+        git commit -m "Update playlist"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
