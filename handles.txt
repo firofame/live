@@ -1,0 +1,11 @@
+24OnLive,Malayalam
+reporterlive,Malayalam
+manoramanews,Malayalam
+MediaoneTVLive,Malayalam
+TVMathrubhumi,Malayalam
+News18Kerala,Malayalam
+kairalinews,Malayalam
+tvjanam,Malayalam
+ZeeMalayalamNews,Malayalam
+aljazeeraenglish,English
+SaudiQuranTv,Arabic
