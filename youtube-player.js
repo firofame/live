@@ -24,6 +24,7 @@ fetch('playlist.json')
         const buttonContainer = document.getElementById('button-container');
         data.forEach(channel => {
             const button = document.createElement('button');
+            button.dataset.channel = channel.channel_id;
             button.textContent = channel.channel_name;
             button.addEventListener('click', () => changeChannel(channel.channel_id));
             buttonContainer.appendChild(button);
