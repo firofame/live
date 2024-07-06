@@ -1,12 +1,11 @@
 const iframe = document.getElementById('youtube-iframe');
-const buttons = document.querySelectorAll('#button-container button');
+let buttons = document.querySelectorAll('#button-container button');
 
 async function loadPlaylist() {
     const response = await fetch('playlist.json');
     const playlist = await response.json();
 
     function changeChannel(channelId) {
-        console.log(`Changing channel to ${channelId}`);
         iframe.src = `https://www.youtube.com/embed/live_stream?channel=${channelId}&autoplay=1`;
         localStorage.setItem('lastChannel', channelId);
         updateActiveButton(channelId);
@@ -29,6 +28,7 @@ async function loadPlaylist() {
         button.addEventListener('click', () => changeChannel(channel.channel_id));
         buttonContainer.appendChild(button);
     });
+    buttons = document.querySelectorAll('#button-container button');
 }
 
 loadPlaylist();
