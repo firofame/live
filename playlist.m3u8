@@ -1,28 +1,34 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/eqbZ6s1e5--bLtQT-w_COL6u7ajCp_cUwtc-yXUntjsmXwjflWaFgKRrP0ao02Zhw3e_7zZIfA=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", 24 News
-https://live.firofame.workers.dev/?@=24OnLive
-
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/f6tEYjB34zD0Z4U93w9UFJkBiGpdryrUj8KKS9IuIEjVvD12Bm9m5n5aBfwWbgIRB-r5FOYyCjc=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", REPORTER LIVE
 https://live.firofame.workers.dev/?@=reporterlive
 
-#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AIdro_nNiHUlaF-60oiZqJHFF1N3uFek7UokY1i1OkmtOyW7gpQ=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", Manorama News
-https://live.firofame.workers.dev/?@=manoramanews
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/eqbZ6s1e5--bLtQT-w_COL6u7ajCp_cUwtc-yXUntjsmXwjflWaFgKRrP0ao02Zhw3e_7zZIfA=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", 24 News
+https://live.firofame.workers.dev/?@=24OnLive
+
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/gizUTRt3mGlEsAEfvvLWR9PIaTAeOhXBT89pTuQ6CcrAww1tWRlcskmWVK9sahEf-KWZZ3iJCw=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", asianetnews
+https://live.firofame.workers.dev/?@=asianetnews
 
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AIdro_mYPZfjdmYRx0k6LSGJtO0UUBbi9iJJLvGChMcsfyh-xBo=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", MediaoneTV Live
 https://live.firofame.workers.dev/?@=MediaoneTVLive
 
-#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AIdro_n3GwS5AiD5wcCQcacdBVIqedZEtVm4H1EsLlxB0li41mA=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", Mathrubhumi News
-https://live.firofame.workers.dev/?@=TVMathrubhumi
-
-#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AIdro_noEGYn5NGuAElTdnJcp3vAZJYN5bM9ZDjFa7OfVxq2xw=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", News18 Kerala
-https://live.firofame.workers.dev/?@=News18Kerala
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AIdro_nNiHUlaF-60oiZqJHFF1N3uFek7UokY1i1OkmtOyW7gpQ=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", Manorama News
+https://live.firofame.workers.dev/?@=manoramanews
 
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/UQ2HWeOD-dmiu_bdebpCnTUlFjXOm885dgQZehw2LQJs6j7nNGTkJfwKk2kOk9eI9WkdGO-_kCA=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", Kairali News
 https://live.firofame.workers.dev/?@=kairalinews
 
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AIdro_n3GwS5AiD5wcCQcacdBVIqedZEtVm4H1EsLlxB0li41mA=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", Mathrubhumi News
+https://live.firofame.workers.dev/?@=TVMathrubhumi
+
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/A4-14VsCyyYBsglaD7gECXdpDPgbBmplnK23LjFmefB8d2bATBLIGOqaM8OGtBekRyMVWqyXOxI=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", Kerala Vision News 24x7
+https://live.firofame.workers.dev/?@=keralavisionnews24x7
+
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AIdro_nCmUp4mMxnlpluV1MH4km_K8rR8fHG6En1jdFfpBImmBI=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", Janam TV
 https://live.firofame.workers.dev/?@=tvjanam
+
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AIdro_noEGYn5NGuAElTdnJcp3vAZJYN5bM9ZDjFa7OfVxq2xw=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", News18 Kerala
+https://live.firofame.workers.dev/?@=News18Kerala
 
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/cmIOOd_9zU_l4dqzvg5qvjMGjNfxorCyEvqf9TeQfscNG50S10JO4NR43hjxMN8NyG72SfAwqA=s176-c-k-c0x00ffffff-no-rj" group-title="Malayalam", Zee Malayalam News
 https://live.firofame.workers.dev/?@=ZeeMalayalamNews
@@ -30,9 +36,9 @@ https://live.firofame.workers.dev/?@=ZeeMalayalamNews
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/YKrh5sIYpesEIHbjfgqwFjFx3ZgIjM_zak2z0LO8QENSgrmgKBes1m65POj9jkmzm0qoKwgl=s176-c-k-c0x00ffffff-no-rj" group-title="English", Al Jazeera English
 https://live.firofame.workers.dev/?@=aljazeeraenglish
 
+#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/U4ShKpRJI4jVgI-cTdvnRiaZLKJeNL4nILy9fU_U8PPtsIb1bljL4JfbHT-Kv7oK9hJCp26x4g=s176-c-k-c0x00ffffff-no-rj" group-title="English", Republic World
+https://live.firofame.workers.dev/?@=RepublicWorld
+
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AIdro_mesiGG76gww2WnpFVUFbMz-s2d4IjJJVhDqJuCVscqKLY=s176-c-k-c0x00ffffff-no-rj" group-title="Arabic", The official channel of KSA Qur’an TV 
 https://live.firofame.workers.dev/?@=SaudiQuranTv
-
-#EXTINF:-1 tvg-logo="https://yt3.ggpht.com/E96qzkAoX81DQs7wqRHR4rNk1esa4quBPzda2QRzImlhoHOVgRdAN8o-S0Rb_hpygo_n4LdhwTE=s176-c-k-c0x00ffffff-no-rj" group-title="English", Sky News
-https://live.firofame.workers.dev/?@=SkyNews
 
