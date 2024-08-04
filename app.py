@@ -36,7 +36,7 @@ with open('playlist.m3u', 'w') as f:
         channel_id = data['contents']['twoColumnWatchNextResults']['results']['results']['contents'][1]['videoSecondaryInfoRenderer']['owner']['videoOwnerRenderer']['title']['runs'][0]['navigationEndpoint']['browseEndpoint']['browseId']
 
         # Construct the M3U8 URL for the channel's live stream
-        m3u8_url = f'https://live.firofame.workers.dev/?@={handle}'
+        m3u8_url = f'https://ythls.armelin.one/channel/{channel_id}.m3u8'
         # m3u8_url = f'https://live.firofame.workers.dev/?@={handle}'
 
         # Write the metadata and URL to the playlist file
