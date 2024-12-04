@@ -47,7 +47,8 @@ def write_playlist(file_path, handles):
         for handle, group in handles:
             channel_data = fetch_channel_data(handle)
             if channel_data:
-                m3u8_url = f'https://ythls.armelin.one/channel/{channel_data["channel_id"]}.m3u8'
+                # m3u8_url = f'https://ythls.armelin.one/channel/{channel_data["channel_id"]}.m3u8'
+                m3u8_url = https://ythls-v3.onrender.com/channel/{channel_data["channel_id"]}.m3u8
                 f.write(f'#EXTINF:-1 tvg-logo="{channel_data["image_url"]}" group-title="{group}", {channel_data["channel_name"]}\n{m3u8_url}\n')
 
 def write_channel_data(file_path, handles):
