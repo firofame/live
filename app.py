@@ -2,6 +2,10 @@ import json
 import re
 import requests
 
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'  # Example User-Agent string
+}
+
 def read_handles(file_path):
     with open(file_path, 'r') as f:
         return [tuple(line.strip().split(',')) for line in f]
@@ -9,7 +13,7 @@ def read_handles(file_path):
 def fetch_channel_data(handle):
     url = f'https://www.youtube.com/@{handle}/live'
     try:
-        response = requests.get(url)
+        response = requests.get(url, timeout=10, headers=headers)
         response.raise_for_status()
     except requests.RequestException as e:
         print(f"Error fetching data for handle {handle}: {e}")
