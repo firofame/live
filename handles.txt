@@ -6,7 +6,6 @@ manoramanews,Malayalam
 kairalinews,Malayalam
 TVMathrubhumi,Malayalam
 keralavisionnews24x7,Malayalam
-tvjanam,Malayalam
 News18Kerala,Malayalam
 ZeeMalayalamNews,Malayalam
 aljazeeraenglish,English
