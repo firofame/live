@@ -3,7 +3,7 @@ let buttons = document.querySelectorAll('#button-container button');
 
 async function loadPlaylist() {
     try {
-        const response = await fetch('playlist.json');
+        const response = await fetch('input.json');
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
@@ -27,9 +27,9 @@ async function loadPlaylist() {
         const buttonContainer = document.getElementById('button-container');
         playlist.forEach(channel => {
             const button = document.createElement('button');
-            button.dataset.channel = channel.channel_id;
-            button.textContent = channel.channel_name;
-            button.addEventListener('click', () => changeChannel(channel.channel_id));
+            button.dataset.channel = channel["channel-id"];
+            button.textContent = channel["name"];
+            button.addEventListener('click', () => changeChannel(channel["channel-id"]));
             buttonContainer.appendChild(button);
         });
         buttons = document.querySelectorAll('#button-container button');
